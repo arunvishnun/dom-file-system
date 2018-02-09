@@ -1,0 +1,126 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-contaner {
+    width: 70%;
+    margin: 40px auto;
+    box-shadow: 0px 10px 30px #c3c3c3;
+    padding: 0;
+    border: 1px solid#e8e8e8;
+    border-radius: 5px;
+    position: relative;
+}
+
+.header-row {
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+    padding: 12px 8px 12px 18px;
+    justify-content: space-between;    
+}
+.header-row:first-child {
+    background-color:#f5f5f5;
+}
+h2, h3 {
+    margin: 0px;
+    font-weight: lighter;
+}
+
+h2 {
+    color: #686868;
+}
+
+h3 {
+    color: #cbcbcb
+}
+
+main {
+    min-height: 450px;
+    padding: 16px;
+}
+
+footer {
+    border-top: 1px solid #eaeaea;
+    left: 0;
+    padding: 12px 0px 12px 18px;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button  {
+    background:#4285f4;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px 24px;
+    outline: none;
+}
+
+a {
+    color:  #4285f4;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul, li { 
+    color: #8b8b8b;
+    list-style: none;
+    padding-left: 25px;
+    position: relative;  
+}
+
+li {
+    line-height: 30px;
+    cursor: pointer;
+}
+
+li.active {
+    background-color:  #4285f4;
+    color: white;
+}
+
+span {
+    margin: 5px 10px 2px 0;
+    width: 14px;
+    height: 18px;
+    float: left; 
+    cursor: inherit;
+}
+
+label {
+    cursor: inherit;
+}
+
+.expand-collapse.expanded{
+    background: url(../img/icon-sprite.png) -70px 3px no-repeat;
+    filter: invert(60%);
+}
+
+.expand-collapse.collapsed{
+    background: url(../img/icon-sprite.png) -55px 3px no-repeat;
+    filter: invert(60%);
+}
+
+.folder-icon {
+    background: url(../img/icon-sprite.png) 0px 3px no-repeat;
+} 
+
+.folder-icon.private {
+    background: url(../img/icon-sprite.png) -14px 3px no-repeat;
+} 
+
+.file-icon {
+    background: url(../img/icon-sprite.png) -28px 3px no-repeat;
+} 
+
+.close-icon {
+    background: url(../img/icon-sprite.png) -42px 3px no-repeat;
+    filter: invert(60%);
+    position: relative;
+    top: 10px;
+}
+
+.hide {
+    display: none;
+}
